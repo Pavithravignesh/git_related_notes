@@ -1,3 +1,5 @@
+# 34:00 - 58:00 are repeat mode thing
+
 1. 
 we don't mutate the state in action fn(), while using vanialla redux and you have to return
 in reduxToolkit, actually you have to mutate the to work with the action fn(), inside to reducers at the slice, here you don't have to return any,
@@ -83,18 +85,12 @@ now, what are git rebase main and rebase and merge does?
 - and run force push on that commit, since the last commit only will be there in the remote, not at yours
 git push origin feature-branch -f
 
+# making the forked project even(fetch upstream) with main projects 
+1. git fetch --all --prune, (fetch all update from origin/upstream and remove the commit the name of the branch which has been delete previously) or git pull upstream main
+2. git reset --hard upstream/main (reset my forked main with the original updtream main branch)
 
-?
-1. what does git rebase main does?
-2. what does rebase and merge does?
-3. how to restrict original repo from forked repo?
+main branch of my origin, forked copy,
+main branch of original,from where I've the forked copy,
 
-
-
-# 3 nothing from here
-# added for this
-# added for this
-
-# 4 nothing from here
-# added for this
-# added for this
+# squashing you're commit
+- git rebase -i
