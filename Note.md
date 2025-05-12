@@ -91,3 +91,6 @@ git push origin feature-branch -f
 
 main branch of my origin, forked copy,
 main branch of original,from where I've the forked copy,
+
+# squashing you're commit
+-
